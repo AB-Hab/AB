@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אתר הקומיקס שלי</title>
+    <style>
+        /* עיצוב כללי */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #FFCC00, #FF6600, #CC0000);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* כותרת עליונה */
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            color: #FFCC00;
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* אזור הדמויות */
+        .characters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .character {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .character img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .character h2 {
+            color: #FF6600;
+            font-size: 1.5em;
+        }
+
+        /* כפתור */
+        .button {
+            margin-top: 30px;
+        }
+        .button a {
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #CC0000;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .button a:hover {
+            background-color: #FF6600;
+        }
+
+        /* תחתית */
+        footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ברוכים הבאים לעולם הקומיקס של AB!</h1>
+    </header>
+
+    <section class="characters">
+        <div class="character">
+            <img src="aluminum-man.png" alt="אלומיניום מן">
+            <h2>אלומיניום מן</h2>
+            <p>גיבור העל שלנו עם חליפת האלומיניום המבריקה!</p>
+        </div>
+        <div class="character">
+            <img src="cosmic.png" alt="קסמיק">
+            <h2>קסמיק</h2>
+            <p>דמות גלקטית עם כוחות זוהרים ומראה טהור.</p>
+        </div>
+    </section>
+
+    <div class="button">
+        <a href="#">לחץ כאן לקרוא עוד על הדמויות!</a>
+    </div>
+
+    <footer>
+        <p>© 2024 AB קומיקס. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>
